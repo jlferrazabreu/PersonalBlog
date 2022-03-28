@@ -1,6 +1,6 @@
 ﻿"use strict";
-
-const cacheName = 'v1CacheBlog';
+importScripts('lib/localforage/localforage.min.js');
+const cacheName = 'v2CacheBlog';
 const blogCacheFiles = [
     '/',
     '/sw.js',
@@ -77,4 +77,34 @@ self.addEventListener('fetch', function (event) {
                     return caches.match(event.request);
                 }));
     }
+});
+
+self.addEventListener('backgroundfetchsuccess', function (event) {
+    console.log('backgroundfetchsuccess', event);
+    const bgFetch = event.registration;
+
+    console.log('backgroundfetchsuccess bgFetch', bgFetch);
+
+    const blogInstance = localforage.createInstance({
+        name: 'blog'
+    });
+
+    console.log('backgroundfetchsuccess blogInstance', blogInstance);
+
+    const func = async function () {
+        console.log('waitUntil');
+
+        const records = await bgFetch.matchAll();
+        const promises = records.map(async function (record) {
+            const response = await record.responseReady;
+            const text = await response.text();
+            console.log('Texto recebido - guardando no IndexDB:' + text);
+            blogInstance.setItem('#' + bgFetch.id, text);
+        });
+
+        await Promise.all(promises);
+        event.updateUI({ title: 'Done!' });
+    };
+
+    event.waitUntil(func());
 });
