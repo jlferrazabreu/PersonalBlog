@@ -1,4 +1,5 @@
 ﻿var blogService = require('./blogService.js');
+const serviceWorker = require('./swRegister.js');
 
 blogService.loadLatestBlogPosts();
 
@@ -9,5 +10,4 @@ window.pageEvents = {
     loadMoreBlogPosts: function () {
         blogService.loadMoreBlogPosts();
     }
-
 }

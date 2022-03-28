@@ -38,7 +38,7 @@ namespace PersonalBlog.Controllers
             return View(new ErrorViewModel { RequestId = Activity.Current?.Id ?? HttpContext.TraceIdentifier });
         }
 
-        public JsonResult LatestBlogPosts()
+        public JsonResult LatestBlogPost()
         {
             var posts = _blogService.GetLatestPosts();
             return Json(posts);

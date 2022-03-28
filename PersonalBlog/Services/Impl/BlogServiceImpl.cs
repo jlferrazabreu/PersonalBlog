@@ -49,7 +49,6 @@ namespace PersonalBlog.Services.Impl
             return GetLastOrderingPosts(Posts);
         }
 
-
         public List<BlogPost> GetOlderPosts(int olderBlogPostId)
         {
             var query = Posts.Where(post => post.PostId < olderBlogPostId);

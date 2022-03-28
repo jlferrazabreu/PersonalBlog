@@ -12,7 +12,7 @@
 <div class="blog-list card-columns" id="blog-list"></div>
 
 <div class="center">
-    <button class="btn btn-primary" onclick="pageEvents.loadMoreBlogPosts();">Carregar posts anteriores</button>
+    <button id="carregar-mais" class="btn btn-primary" onclick="pageEvents.loadMoreBlogPosts();">Carregar posts anteriores</button>
     <br />
     <br />
 </div>
@@ -36,3 +36,13 @@
     <a href="#blog-title" class="btn btn-primary">voltar</a>
 </script>
 
+<script id="blog-content-not-found" type="text/template">
+    <h1>
+        Ups, artigo nao encontrado no cache!
+    </h1>
+    <div>
+        Voce quer que nos continuemos tentando fazer o download do artigo em plano de fundo e te comunicar quando estiver disponivel?
+    </div>
+    <br />
+    <button class="btn btn-success">Sim!</button>
+</script>

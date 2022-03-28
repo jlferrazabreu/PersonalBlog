@@ -3,6 +3,10 @@
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="manifest" href="~/manifest.json" />
+    <meta name="description" content="Blog da Turma 20NET Fiap" />
+    <meta name="theme-color" content="#f69435" />
+    <link rel="apple-touch-icon" href="~/images/icon-192x192.png" />
     <title>@ViewData["Title"] - PersonalBlog</title>
     <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
     <link rel="stylesheet" href="~/css/site.css" />
@@ -44,11 +48,11 @@
     <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
     <script src="~/lib/es6-promise/es6-promise.js"></script>
     <script src="~/lib/fetch/fetch.js"></script>
+    <script src="~/lib/systemjs/system.js"></script>
     <script src="~/lib/showdown/showdown.js"></script>
     <script src="~/lib/localforage/localforage.min.js"></script>
     <script src="~/lib/localforage/localforage-getitems.js"></script>
     <script src="~/lib/localforage/localforage-setitems.js"></script>
-    <script src="~/lib/systemjs/system.js"></script>
     <script src="~/js/site.js" asp-append-version="true"></script>
     @await RenderSectionAsync("Scripts", required: false)
 </body>

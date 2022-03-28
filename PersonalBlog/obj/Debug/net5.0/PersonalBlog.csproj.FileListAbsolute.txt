@@ -1,11 +1,3 @@
-C:\Jorge\MBA_FIAP\02-Modulo_DESENVOLVIMENTO DE APLICACOES\PROGRESSIVE WEB APPS (PWA)\PersonalBlog\PersonalBlog\PersonalBlog\obj\Debug\net5.0\PersonalBlog.csproj.AssemblyReference.cache
-C:\Jorge\MBA_FIAP\02-Modulo_DESENVOLVIMENTO DE APLICACOES\PROGRESSIVE WEB APPS (PWA)\PersonalBlog\PersonalBlog\PersonalBlog\obj\Debug\net5.0\PersonalBlog.GeneratedMSBuildEditorConfig.editorconfig
-C:\Jorge\MBA_FIAP\02-Modulo_DESENVOLVIMENTO DE APLICACOES\PROGRESSIVE WEB APPS (PWA)\PersonalBlog\PersonalBlog\PersonalBlog\obj\Debug\net5.0\PersonalBlog.AssemblyInfoInputs.cache
-C:\Jorge\MBA_FIAP\02-Modulo_DESENVOLVIMENTO DE APLICACOES\PROGRESSIVE WEB APPS (PWA)\PersonalBlog\PersonalBlog\PersonalBlog\obj\Debug\net5.0\PersonalBlog.AssemblyInfo.cs
-C:\Jorge\MBA_FIAP\02-Modulo_DESENVOLVIMENTO DE APLICACOES\PROGRESSIVE WEB APPS (PWA)\PersonalBlog\PersonalBlog\PersonalBlog\obj\Debug\net5.0\PersonalBlog.csproj.CoreCompileInputs.cache
-C:\Jorge\MBA_FIAP\02-Modulo_DESENVOLVIMENTO DE APLICACOES\PROGRESSIVE WEB APPS (PWA)\PersonalBlog\PersonalBlog\PersonalBlog\obj\Debug\net5.0\PersonalBlog.MvcApplicationPartsAssemblyInfo.cache
-C:\Jorge\MBA_FIAP\02-Modulo_DESENVOLVIMENTO DE APLICACOES\PROGRESSIVE WEB APPS (PWA)\PersonalBlog\PersonalBlog\PersonalBlog\obj\Debug\net5.0\PersonalBlog.RazorAssemblyInfo.cache
-C:\Jorge\MBA_FIAP\02-Modulo_DESENVOLVIMENTO DE APLICACOES\PROGRESSIVE WEB APPS (PWA)\PersonalBlog\PersonalBlog\PersonalBlog\obj\Debug\net5.0\PersonalBlog.RazorAssemblyInfo.cs
 C:\Jorge\MBA_FIAP\02-Modulo_DESENVOLVIMENTO DE APLICACOES\PROGRESSIVE WEB APPS (PWA)\PersonalBlog\PersonalBlog\PersonalBlog\bin\Debug\net5.0\appsettings.Development.json
 C:\Jorge\MBA_FIAP\02-Modulo_DESENVOLVIMENTO DE APLICACOES\PROGRESSIVE WEB APPS (PWA)\PersonalBlog\PersonalBlog\PersonalBlog\bin\Debug\net5.0\appsettings.json
 C:\Jorge\MBA_FIAP\02-Modulo_DESENVOLVIMENTO DE APLICACOES\PROGRESSIVE WEB APPS (PWA)\PersonalBlog\PersonalBlog\PersonalBlog\bin\Debug\net5.0\PersonalBlog.exe
@@ -17,6 +9,13 @@ C:\Jorge\MBA_FIAP\02-Modulo_DESENVOLVIMENTO DE APLICACOES\PROGRESSIVE WEB APPS (
 C:\Jorge\MBA_FIAP\02-Modulo_DESENVOLVIMENTO DE APLICACOES\PROGRESSIVE WEB APPS (PWA)\PersonalBlog\PersonalBlog\PersonalBlog\bin\Debug\net5.0\PersonalBlog.pdb
 C:\Jorge\MBA_FIAP\02-Modulo_DESENVOLVIMENTO DE APLICACOES\PROGRESSIVE WEB APPS (PWA)\PersonalBlog\PersonalBlog\PersonalBlog\bin\Debug\net5.0\PersonalBlog.Views.dll
 C:\Jorge\MBA_FIAP\02-Modulo_DESENVOLVIMENTO DE APLICACOES\PROGRESSIVE WEB APPS (PWA)\PersonalBlog\PersonalBlog\PersonalBlog\bin\Debug\net5.0\PersonalBlog.Views.pdb
+C:\Jorge\MBA_FIAP\02-Modulo_DESENVOLVIMENTO DE APLICACOES\PROGRESSIVE WEB APPS (PWA)\PersonalBlog\PersonalBlog\PersonalBlog\obj\Debug\net5.0\PersonalBlog.GeneratedMSBuildEditorConfig.editorconfig
+C:\Jorge\MBA_FIAP\02-Modulo_DESENVOLVIMENTO DE APLICACOES\PROGRESSIVE WEB APPS (PWA)\PersonalBlog\PersonalBlog\PersonalBlog\obj\Debug\net5.0\PersonalBlog.AssemblyInfoInputs.cache
+C:\Jorge\MBA_FIAP\02-Modulo_DESENVOLVIMENTO DE APLICACOES\PROGRESSIVE WEB APPS (PWA)\PersonalBlog\PersonalBlog\PersonalBlog\obj\Debug\net5.0\PersonalBlog.AssemblyInfo.cs
+C:\Jorge\MBA_FIAP\02-Modulo_DESENVOLVIMENTO DE APLICACOES\PROGRESSIVE WEB APPS (PWA)\PersonalBlog\PersonalBlog\PersonalBlog\obj\Debug\net5.0\PersonalBlog.csproj.CoreCompileInputs.cache
+C:\Jorge\MBA_FIAP\02-Modulo_DESENVOLVIMENTO DE APLICACOES\PROGRESSIVE WEB APPS (PWA)\PersonalBlog\PersonalBlog\PersonalBlog\obj\Debug\net5.0\PersonalBlog.MvcApplicationPartsAssemblyInfo.cache
+C:\Jorge\MBA_FIAP\02-Modulo_DESENVOLVIMENTO DE APLICACOES\PROGRESSIVE WEB APPS (PWA)\PersonalBlog\PersonalBlog\PersonalBlog\obj\Debug\net5.0\PersonalBlog.RazorAssemblyInfo.cache
+C:\Jorge\MBA_FIAP\02-Modulo_DESENVOLVIMENTO DE APLICACOES\PROGRESSIVE WEB APPS (PWA)\PersonalBlog\PersonalBlog\PersonalBlog\obj\Debug\net5.0\PersonalBlog.RazorAssemblyInfo.cs
 C:\Jorge\MBA_FIAP\02-Modulo_DESENVOLVIMENTO DE APLICACOES\PROGRESSIVE WEB APPS (PWA)\PersonalBlog\PersonalBlog\PersonalBlog\obj\Debug\net5.0\staticwebassets\PersonalBlog.StaticWebAssets.Manifest.cache
 C:\Jorge\MBA_FIAP\02-Modulo_DESENVOLVIMENTO DE APLICACOES\PROGRESSIVE WEB APPS (PWA)\PersonalBlog\PersonalBlog\PersonalBlog\obj\Debug\net5.0\staticwebassets\PersonalBlog.StaticWebAssets.xml
 C:\Jorge\MBA_FIAP\02-Modulo_DESENVOLVIMENTO DE APLICACOES\PROGRESSIVE WEB APPS (PWA)\PersonalBlog\PersonalBlog\PersonalBlog\obj\Debug\net5.0\scopedcss\bundle\PersonalBlog.styles.css
@@ -38,3 +37,4 @@ C:\Jorge\MBA_FIAP\02-Modulo_DESENVOLVIMENTO DE APLICACOES\PROGRESSIVE WEB APPS (
 C:\Jorge\MBA_FIAP\02-Modulo_DESENVOLVIMENTO DE APLICACOES\PROGRESSIVE WEB APPS (PWA)\PersonalBlog\PersonalBlog\PersonalBlog\obj\Debug\net5.0\PersonalBlog.pdb
 C:\Jorge\MBA_FIAP\02-Modulo_DESENVOLVIMENTO DE APLICACOES\PROGRESSIVE WEB APPS (PWA)\PersonalBlog\PersonalBlog\PersonalBlog\obj\Debug\net5.0\PersonalBlog.genruntimeconfig.cache
 C:\Jorge\MBA_FIAP\02-Modulo_DESENVOLVIMENTO DE APLICACOES\PROGRESSIVE WEB APPS (PWA)\PersonalBlog\PersonalBlog\PersonalBlog\obj\Debug\net5.0\PersonalBlog.csproj.CopyComplete
+C:\Jorge\MBA_FIAP\02-Modulo_DESENVOLVIMENTO DE APLICACOES\PROGRESSIVE WEB APPS (PWA)\PersonalBlog\PersonalBlog\PersonalBlog\obj\Debug\net5.0\PersonalBlog.csproj.AssemblyReference.cache

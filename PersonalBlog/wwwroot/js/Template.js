@@ -10,13 +10,19 @@
         return template;
     }
 
-    function appendBlogList(items) {
+    function appendBlogList(items, oldestBlogPostId) {
         let cardHtml = '';
         for (let i = 0; i < items.length; i++) {
             cardHtml += generateBlogItem(items[i]);
         }
 
         $('#blog-list').append(cardHtml);
+
+        if (oldestBlogPostId > 1) {
+            $('#carregar-mais').show();
+        } else {
+            $('#carregar-mais').hide();
+        }
     }
 
     function showBlogItem(html, link) {
