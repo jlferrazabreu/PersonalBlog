@@ -1,5 +1,7 @@
 ﻿var blogService = require('./blogService.js');
 const serviceWorker = require('./swRegister.js');
+const localization = require('./localization.js');
+const gyroscope = require('./gyroscope.js');
 
 let defferedPrompt;
 window.addEventListener('beforeinstallprompt', function (event) {
@@ -37,7 +39,7 @@ window.pageEvents = {
         });
     },
     setBackgroundFetch: async function (link) {
-        const swRegister = navigator.serviceWorker.ready;
+        const swRegister = await navigator.serviceWorker.ready;
         const bgFetch = await swRegister.backgroundFetch.fetch(link,
             ['Home/Post/?link=' + link], {
             title: link,
@@ -60,9 +62,21 @@ window.pageEvents = {
             $('#status-download').show();
             $('#status-download > .progress > .progress-bar').css('width', percent + '%');
 
-            if (bgFetch.result === 'success') {
-                $('#status-download > .text-sucess').show();
+            if (bgFetch.result == 'success') {
+                $('#status-download > .text-success').show();
             }
         });
     },
+    getGeolocation: function () {
+        localization.getGeolocation();
+    },
+    vibrate: function () {
+        if ('vibrate' in navigator) {
+            navigator.vibrate = navigator.vibrate || navigator.webkitVibrate || navigator.mozVibrate || navigator.msVibrate;
+            navigator.vibrate([1000]);
+        }
+    }
 }
+
+gyroscope.init();
+gyroscope.animate();

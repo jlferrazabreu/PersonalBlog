@@ -17,6 +17,59 @@
     <br />
 </div>
 
+<div class="card-columns">
+    <div class="card">
+        <div>
+            Camera: <input type="file" accept="image/*" capture="camera" />
+            <br /><br />
+        </div>
+        <div>
+            Gravacao: <input type="file" accept="video/*" capture="camcorder" />
+            <br /><br />
+        </div>
+        <div>
+            Microfone: <input type="file" accept="audio/*" capture="microphone" />
+        </div>
+    </div>
+    <div class="card">
+        <div class="card-body form-group">
+            <div>
+                <button type="button" class="btn btn-primary" id="address-button" onclick="pageEvents.getGeolocation();">Capturar Geolocation</button>
+                <br />
+                <br />
+            </div>
+            <div>
+                <div id="address-found-input" style="display:none">
+                    Cidade/Estado: <input id="address-found" type="text" />
+                    <br />
+                    <br />
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="card">
+        <div class="card-body form-group">
+            <h4>Exemplo de Vibracao do Cel</h4>
+            <div>
+                <button type="button" class="btn btn-primary" id="address-button" onclick="pageEvents.vibrate();">Ativar vibracao cel</button>
+                <br />
+                <br />
+            </div>
+        </div>
+    </div>
+    <div class="card">
+        <div class="card-body form-group">
+            <h4>Exemplo de Orientacao</h4>
+            <div id="canvas"></div>
+            <div>
+                <div id="rotation-info"></div>
+                <br />
+                <br />
+            </div>
+        </div>
+    </div>
+</div>
+
 <div id="blog-item-container"></div>
 
 <script id="blog-card" type="text/template">
